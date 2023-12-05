@@ -1,0 +1,59 @@
+/* styles.css */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .dog-container {
+    flex-grow: 1;
+  }
+  
+  #dog-data {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  button {
+    
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4caf50;
+  }
+  
