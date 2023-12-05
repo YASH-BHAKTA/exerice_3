@@ -1,4 +1,3 @@
-// script.js
 document.addEventListener('DOMContentLoaded', () => {
 	const fetchDataButton = document.getElementById('fetch-data');
 	const dogDataContainer = document.getElementById('dog-data');
