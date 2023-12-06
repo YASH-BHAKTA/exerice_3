@@ -56,3 +56,9 @@ body {
     background-color: #4caf50;
   }
   
+  p{
+    font-weight: bold;
+    color: crimson;
+    font-size: large;
+    background-color: #00ffea;
+  }
